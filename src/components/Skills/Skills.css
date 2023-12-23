@@ -1,0 +1,50 @@
+.Skills{
+
+display: flex;
+flex-direction: column;
+
+    width: 100%;
+    min-height: 100vh;
+}
+.Skills .btns {
+    margin: 25px 0;
+    display: flex;
+    justify-content: center;
+}
+.Skills button
+{
+    margin: 0 15px;
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    color: black;
+    border-radius: 15px;
+    text-transform: capitalize;
+}
+.activeBtnn{
+    background-color: red;
+    color: white !important;
+}
+.containerSkills{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.Skills .boxSkills{
+    width: 22%;
+    margin: 8px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.boxSkills img{
+    width: 150px;
+    height: 150px;
+}
+@media(max-width:767px){
+    .boxSkills img{
+        width: 100px;
+        height: 100px;
+    }
+}

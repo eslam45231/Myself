@@ -1,0 +1,115 @@
+.about{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.containerColors{
+    position: fixed;
+    top: 30px;
+    right: 0px; transition: .3s ;
+    transform: translateX(100%);
+}
+.ActivecontainerColors{
+    transform: translateX(0) !important;
+}
+.boxColor{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100px;
+    background-color: rgb(132, 137, 142);
+
+}
+.colors{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.boxColor p{
+    width: 20px;
+    height: 20px;
+    margin:  5px;
+    border-radius: 50%;
+    background-color: red;
+}
+.settings{
+    position: absolute;
+    top: 50%;
+    transform: translate(-100%,-50%);
+}
+.settings h5{
+    cursor: pointer;
+    color: white;
+    padding: 5px;
+    background-color: rgb(49, 52, 54);
+}
+.containerAbout{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ .textContent{
+    width: 40%;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.containerAbout .textContent h1{
+    text-transform: capitalize;
+}
+.containerAbout .textContent h1 span{
+    color: rgb(0, 132, 255);
+}
+.cardContent{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.about .containerAbout .cardContent .card{
+    width: 22%;
+    border: none;
+    margin: 0 15px;
+}
+.about .containerAbout .cardContent .card img{
+    padding: 0 15px;
+
+width: 100%;
+}
+
+.about .containerAbout .cardContent .card h1{
+font-size: 20px;
+text-transform: capitalize;
+padding: 0 15px;
+
+}
+
+.about .containerAbout .cardContent .card p{
+font-size: 15px;
+text-transform: capitalize;width: 70%;
+color: rgba(0, 0, 0, 0.529);
+padding: 0 15px;
+}
+@media(max-width:1000px){
+    #cardAbout{
+        width: 42%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media(max-width:600px){
+    #cardAbout{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}

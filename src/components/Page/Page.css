@@ -1,0 +1,102 @@
+.Page{
+    width: 100%;
+    min-height: 150vh;
+}
+
+.containerColors{
+    position: fixed;
+    top: 70px;
+    z-index: 999999;
+
+}
+.boxColor{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100px;
+    background-color: rgb(132, 137, 142);
+
+}
+.colors{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.boxColor p{
+    width: 20px;
+    height: 20px;
+    margin:  5px;
+    border-radius: 50%;
+    background-color: red;
+}
+.settings{
+    position: absolute;
+    top: 50%;
+    transform: translate(-100%,-50%);
+}
+.settings h5{
+    color: white;
+    padding: 5px;
+    background-color: rgb(49, 52, 54);
+}
+.bullets{
+    position: fixed;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.bullets p{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    position: relative;
+    background-color: rgba(128, 128, 128, 0.477);
+}
+.bullets p a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+}
+.activePPage{
+    background-color: red !important;
+}
+
+.red{
+    background-color: red !important;
+    color: white;
+}
+
+
+.white{
+    background-color: white !important;
+    color: black;
+}
+
+
+.black{
+    background-color: black !important;
+    color: white;
+}
+
+
+.aqua{
+    background-color: aqua !important;
+    color: yellow;
+}
+
+
+.yellow{
+    background-color: yellow !important;
+    color: saddlebrown;
+}
+
+
+.green{
+    background-color: green !important;
+    color: white;
+}
