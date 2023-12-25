@@ -1,12 +1,11 @@
 {
   "files": {
     "main.css": "/Myself/static/css/main.06d010ac.css",
-    "main.js": "/Myself/static/js/main.8c456dd0.js",
+    "main.js": "/Myself/static/js/main.6c817ffe.js",
     "static/media/fa-solid-900.ttf": "/Myself/static/media/fa-solid-900.2877d54f94f30c5d563c.ttf",
     "static/media/122708192___n.jpg": "/Myself/static/media/122708192_10158692043789512_6991035004720933016_n.73e36c971808f47cdb41.jpg",
     "static/media/fa-brands-400.ttf": "/Myself/static/media/fa-brands-400.13e40630e5866f777de8.ttf",
     "static/media/fa-solid-900.woff2": "/Myself/static/media/fa-solid-900.bdb9e23299f9d1320a8b.woff2",
-    "static/media/WIN_20231224_21_56_45_Pro.jpg": "/Myself/static/media/WIN_20231224_21_56_45_Pro.4539f787dd2744349092.jpg",
     "static/media/fa-brands-400.woff2": "/Myself/static/media/fa-brands-400.7be2266f1be21c44ecd4.woff2",
     "static/media/MMI.jpg": "/Myself/static/media/MMI.ce6b95a3925924294bf2.jpg",
     "static/media/ASH.jpg": "/Myself/static/media/ASH.50af5888dea7d6987fad.jpg",
@@ -17,10 +16,10 @@
     "static/media/fa-v4compatibility.woff2": "/Myself/static/media/fa-v4compatibility.497d535001197a9c5b38.woff2",
     "index.html": "/Myself/index.html",
     "main.06d010ac.css.map": "/Myself/static/css/main.06d010ac.css.map",
-    "main.8c456dd0.js.map": "/Myself/static/js/main.8c456dd0.js.map"
+    "main.6c817ffe.js.map": "/Myself/static/js/main.6c817ffe.js.map"
   },
   "entrypoints": [
     "static/css/main.06d010ac.css",
-    "static/js/main.8c456dd0.js"
+    "static/js/main.6c817ffe.js"
   ]
 }
